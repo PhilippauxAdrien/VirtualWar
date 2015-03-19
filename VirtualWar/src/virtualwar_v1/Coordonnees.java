@@ -6,7 +6,8 @@ public class Coordonnees {
 	private int hauteur;
 	
 	public Coordonnees(int largeur, int hauteur){
-		
+		this.largeur=largeur;
+		this.hauteur=hauteur;
 	}
 
 	public String toString() {
